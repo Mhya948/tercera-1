@@ -1,4 +1,208 @@
-*{
-    padding: 0;
+
+  
+   *{
+   
     margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+   body{
+    background-color: rgb(219, 219, 203);
+
+   }
+   h2{
+    color: darkkhaki;
+    font-weight:bold;
+   }
+   .card img{
+    height: 200px;
+    object-fit: cover;
+   }
+   /* 🌈 Navbar personalizado */
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+  border: 2px solid white;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffe082 !important; /* Amarillo claro */
+}
+
+.navbar.bg-primary {
+  background: linear-gradient(90deg, #3fbb2677, #2f5e1d);
+}
+
+/* 💅 Efecto de sombra al hacer scroll */
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 📱 Responsive ajuste del logo */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 35px;
+    height: 35px;
+  }
+}
+/* Forzar menú horizontal en pantallas medianas/grandes */
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+  }
+  .navbar-nav .nav-item {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+/* En móvil mantenemos el comportamiento por defecto (columna) */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+}
+/* Ajusta el tamaño y el espaciado de los enlaces */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;            /* letras más grandes */
+  font-weight: 500;             /* un poco más gruesas */
+  color: #ffffff !important;    /* texto blanco */
+  padding: 0.5rem 1rem !important; /* espacio alrededor */
+  transition: all 0.3s ease;    /* animación suave al pasar el mouse */
+}
+
+/* Espaciado entre los ítems */
+.navbar-nav .nav-item {
+  margin: 0 8px; /* separación horizontal */
+}
+
+/* Efecto al pasar el mouse */
+.navbar-nav .nav-link:hover {
+  color: #ffe082 !important; /* amarillo suave */
+  text-decoration: underline;
+  text-underline-offset: 4px; /* subrayado con separación */
+}
+
+/* Para que el navbar se vea más moderno */
+.navbar {
+  padding: 0.8rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0077b6 !important; /* azul bonito */
+}
+/* ==== IMÁGENES RESPONSIVE ==== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==== Ajuste especial para imágenes principales ==== */
+.img-destacada {
+  max-width: 400px;   /* tamaño máximo (puedes ajustar) */
+  margin: 30px auto;  /* centrada y con espacio */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+}
+.card-img-top {
+  max-width: 200px;   /* tamaño máximo (puedes ajustar) */
+  margin: 10px auto;  /* centrada y con espacio */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  height: 260px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 40%, 40%;
+}
+/* Solo afecta al carrusel */
+.card-carousel {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-carousel:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-carousel-img {
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+/* 🔹 Contenedor general del carrusel */
+#carouselLibros .carousel-item {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* espacio entre cards */
+  padding: 20px 0;
+}
+
+/* 🔹 Cada tarjeta */
+.card-carousel {
+  width: 250px; /* ancho fijo */
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.card-carousel:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Imágenes del carrusel */
+.card-carousel-img {
+  width: 100%;
+  height: 350px; /* controla la altura visible */
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+
+/* 🔹 Texto dentro de la tarjeta */
+.card-carousel .card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+/* 🔹 Controles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
 }
