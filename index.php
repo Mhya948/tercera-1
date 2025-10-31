@@ -1,91 +1,43 @@
 <?php require_once "<vista>/vista_superior.php"; ?>
     <div class="container mt-5">
-        <h2 class="text-center mb-4 fw-bold">Libros Destacados</h2>
-  <!-- Carrusel -->
-  <div id="carouselLibros" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-    <div class="carousel-inner">
+        <h2 class="text-center mb-4 fw-bold">Mas vendidos</h2>
+<div id="carouselLibros" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
+  <div class="carousel-inner">
 
-      <!-- 🔹 Primer grupo de libros -->
-      <div class="carousel-item active">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carousel h-100 shadow-sm">
-              <img src="img/libro1.jpg" class="card-carousel-img" alt="Libro 1">
-              <div class="card-body text-center">
-                <h5 class="card-title">Cuentos de Hadas Modernos</h5>
-                <p class="card-text text-muted">Holly Black</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carousel h-100 shadow-sm">
-              <img src="img/libro2.jpg" class="card-carousel-img" alt="Libro 2">
-              <div class="card-body text-center">
-                <h5 class="card-title">Guardianes de la Ciudadela</h5>
-                <p class="card-text text-muted">Laura Gallego</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carousel h-100 shadow-sm">
-              <img src="img/libro3.jpg" class="card-carousel-img" alt="Libro 3">
-              <div class="card-body text-center">
-                <h5 class="card-title">Alicia en el Pais de las Maravillas</h5>
-                <p class="card-text text-muted">Patrick Rothfuss</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 🔹 Segundo grupo de libros -->
-      <div class="carousel-item">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carousel h-100 shadow-sm">
-              <img src="img/libro4.jpg" class="card-carousel-img" alt="Libro 4">
-              <div class="card-body text-center">
-                <h5 class="card-title">La balada de Nunca Jamas</h5>
-                <p class="card-text text-muted">Stephanie Garber</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carousel h-100 shadow-sm">
-              <img src="img/libro5.jpg" class="card-carousel-img" alt="Libro 5">
-              <div class="card-body text-center">
-                <h5 class="card-title">Cancion de la lluvia eterna</h5>
-                <p class="card-text text-muted">E.J Mellow</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card-carouselh-100 shadow-sm">
-              <img src="img/libro6.jpg" class="card-carousel-img" alt="Libro 6">
-              <div class="card-body text-center">
-                <h5 class="card-title">La Serpiente y las Alas de la Noche</h5>
-                <p class="card-text text-muted">Carissa Broadbent</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div class="carousel-item active">
+      <img src="img/libro7.jpg" class="d-block w-20 mx-auto" alt="Libro 7">
     </div>
 
-    <!-- 🔸 Controles -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLibros" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselLibros" data-bs-slide="next">
-      <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
-    </button>
+    <div class="carousel-item">
+      <img src="img/libro8.jpg" class="d-block w-20 mx-auto" alt="Libro 8">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/libro9.jpg" class="d-block w-20 mx-auto" alt="Libro 9">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/libro10.jpg" class="d-block w-20 mx-auto" alt="Libro 10">
+    </div>
+    <div class="carousel-item">
+      <img src="img/libro4.jpg" class="d-block w-20 mx-auto" alt="Libro 4">
+    </div>
+
   </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselLibros" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselLibros" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
 </div>
+
+<script src="/proyectos/tercera-1"></script>
+
 
 
 <!-- CARDS -->
@@ -121,6 +73,7 @@
     </div>
   </div>
 </div>
+
 
 
 <?php require_once "<vista>/vista_inferior.php"; ?>

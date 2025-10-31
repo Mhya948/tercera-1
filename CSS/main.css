@@ -38,15 +38,15 @@
 }
 
 .navbar.bg-primary {
-  background: linear-gradient(90deg, #3fbb2677, #2f5e1d);
+  background: linear-gradient(90deg, #d4be8077, #2f5e1d);
 }
 
-/* 💅 Efecto de sombra al hacer scroll */
+/*  Efecto de sombra al hacer scroll */
 .shadow-sm {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* 📱 Responsive ajuste del logo */
+/*  Responsive ajuste del logo */
 @media (max-width: 768px) {
   .navbar-brand img {
     width: 35px;
@@ -108,7 +108,7 @@ img {
 
 /* ==== Ajuste especial para imágenes principales ==== */
 .img-destacada {
-  max-width: 400px;   /* tamaño máximo (puedes ajustar) */
+  max-width: 200px;   /* tamaño máximo (puedes ajustar) */
   margin: 30px auto;  /* centrada y con espacio */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -175,7 +175,7 @@ img {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #fff;
+  background: #dfb8f1;
 }
 
 .card-carousel:hover {
@@ -186,7 +186,7 @@ img {
 /* 🔹 Imágenes del carrusel */
 .card-carousel-img {
   width: 100%;
-  height: 350px; /* controla la altura visible */
+  height: 2050px; /* controla la altura visible */
   object-fit: cover;
   border-bottom: 1px solid #eee;
   display: block;
@@ -205,4 +205,313 @@ img {
   border-radius: 50%;
   width: 45px;
   height: 45px;
+}
+/* Centrar contenido y reducir espacio */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Ajustar las tarjetas */
+.card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Ajustar imágenes */
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Fondo de la sección */
+body {
+  background-color: #dee4a9;
+}
+
+/* Título */
+h2 {
+  color: #2b5a2b;
+  font-weight: bold;
+}
+/* Sección de Libros Destacados */
+.container {
+  max-width: 1000px;
+  margin: 50px auto; /* más espacio arriba y abajo */
+  background-color: #bdd87f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Contenedor del carrusel */
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjetas del carrusel */
+.card-carousel {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card-carousel:hover {
+  transform: scale(1.05);
+}
+
+/* Imágenes del carrusel */
+.card-carousel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Título */
+h2 {
+  color: #2b5a2b;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Flechas de control */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 40px;
+  height: 40px;
+}
+
+/* Ajustar espaciado en móviles */
+@media (max-width: 768px) {
+  .card-carousel-img {
+    height: 250px;
+  }
+}
+/* Fondo general suave */
+body {
+  background: linear-gradient(135deg, #d9f0c1, #b2dfdb);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal del carrusel */
+.container {
+  max-width: 1200px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Título */
+h2 {
+  color: #2b5a2b;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Tarjetas del carrusel */
+.card-carousel {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.card-carousel:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen del libro */
+.card-carousel-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 4px solid #eee;
+}
+
+/* Texto dentro de la tarjeta */
+.card-body h5 {
+  color: #2b5a2b;
+  font-weight: 600;
+}
+
+.card-body p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 45px;
+  height: 45px;
+}
+
+/* Indicadores (los puntitos) */
+.carousel-indicators [data-bs-target] {
+  background-color: #2b5a2b;
+}
+
+/* Ajuste responsive */
+@media (max-width: 200px) {
+  .card-carousel-img {
+    height: 50px;
+  }
+  .container {
+    padding: 30px 15px;
+  }
+}
+/* Ajuste del carrusel para mostrar imágenes en fila */
+.carousel-inner {
+  display: flex;
+  flex-direction: row; /* En fila, no en columna */
+  align-items: center;
+  justify-content: center;
+  gap: 70px; /* Espacio entre las imágenes */
+  overflow-x: auto; /* Permite deslizar horizontalmente */
+  scroll-behavior: smooth;
+  padding: 20px;
+}
+
+/* Ajuste individual de las imágenes */
+.carousel-item img {
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Quitar el salto vertical entre elementos */
+.carousel-item {
+  flex: 0 0 auto;
+}
+
+/* Opcional: ocultar la barra de desplazamiento horizontal */
+.carousel-inner::-webkit-scrollbar {
+  display: none;
+}
+.carrusel-libros {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.carrusel {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrusel-track {
+  display: flex;
+  gap: 25px;
+  animation: slide 20s linear infinite;
+}
+
+.carrusel-track img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.carousel-inner {
+  display: flex;          /* para alinear imágenes en fila */
+  overflow: hidden;       /* oculta lo que se sale del contenedor */
+}
+
+.carousel-item {
+  flex: 0 0 100%;         /* cada item ocupa 100% del contenedor */
+  transition: transform 1s ease;  /* transición suave */
+}
+
+/* Animación automática (opcional) */
+/* Animación de desplazamiento automático */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+.carousel-inner.auto-slide {
+  animation: slide 15s infinite; /* 15s para recorrer todas las imágenes */
+}
+
+
+.carousel-indicators{
+  bottom: -35px;
+}
+.carousel-item img {
+  transition: transform 0.3s;
+
+}
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+.libros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 90%;
+  margin: auto;
+}
+
+.tarjeta {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.carousel-item{
+  max-height: 400px;
+  object-fit: contain;
+}
+.carousel-item{
+  transition: transform 1s ease;
 }

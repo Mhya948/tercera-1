@@ -5,20 +5,28 @@
  <meta charset="UTF-8">
  <meta name="tercera 1" content="Proyecto Universitario">
  <title>Venta de Libros</title>
- <link rel="stylesheet" href=./CSS/main.css>
- <link rel="stylesheet" href=./CSS/tercera-1.css>
- <link href="https://cdn.jsdelivr.net/npm/bootstra@5.3.3/dist/css/bootstrap.main.css" rel="stylesheet">
+
+ <!-- CSS LOCAL -->
+ <link rel="stylesheet" href="./CSS/main.css">
+
+ <!-- BOOTSTRAP CSS ✅ -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ <!-- BOOTSTRAP JS ✅ -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<link rel="icon" type="image/png" href="img/icono.jpg">
+
+ <link rel="icon" type="image/png" href="img/icono.jpg">
 </head>
+
 <body>
+
  <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
   <div class="container">
     <!-- Logo y título -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="img/icono.jpg" alt="Logo" width="40" height="40" class="me-2 rounded-circle">
-      <span class="fw-bold fs-5">Venta de Libros</span>
+      <img src="img/icono.jpg" alt="Logo" width="80" height="80" class="me-2 rounded-circle">
+      <span class="fw-bold fs-5">Bienvenido a la tienda de libros</span>
     </a>
 
     <!-- Botón hamburguesa -->
@@ -36,4 +44,8 @@
       </ul>
     </div>
   </div>
+ 
+  
+</div>
+  
 </nav>
