@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="Spanish">
-
+<html lang="es">
 <head>
- <meta charset="UTF-8">
- <meta name="tercera 1" content="Proyecto Universitario">
- <title>Venta de Libros</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Proyecto Universitario">
+  <title>Venta de Libros</title>
 
- <!-- CSS LOCAL -->
- <link rel="stylesheet" href="./CSS/main.css">
+  <!-- CSS LOCAL (opcional, puedes incluir después del navbar) -->
+ <link rel="stylesheet" href="./CSS/main.css"-->
 
- <!-- BOOTSTRAP CSS ✅ -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
- <!-- BOOTSTRAP JS ✅ -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
- <link rel="icon" type="image/png" href="img/icono.jpg">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="img/icono.jpg">
 </head>
-
 <body>
 
- <!-- NAVBAR -->
+<!-- 🔹 NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
   <div class="container">
     <!-- Logo y título -->
@@ -30,22 +26,28 @@
     </a>
 
     <!-- Botón hamburguesa -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" 
+            aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+      
+      <span class="toggler-icon"></span>
+      <span class="toggler-icon"></span>
+      <span class="toggler-icon"></span>
     </button>
 
     <!-- Menú -->
     <div class="collapse navbar-collapse justify-content-end" id="menu">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active px-3" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active px-3" href="index.php">Inicio</a></li>
         <li class="nav-item"><a class="nav-link px-3" href="#">Libros</a></li>
         <li class="nav-item"><a class="nav-link px-3" href="#">Ofertas</a></li>
         <li class="nav-item"><a class="nav-link px-3" href="#">Contacto</a></li>
       </ul>
     </div>
   </div>
- 
-  
-</div>
-  
 </nav>
+
+<!-- 🔹 Contenedor principal -->
+<div class="container mt-4">
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
