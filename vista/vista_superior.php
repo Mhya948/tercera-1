@@ -5,7 +5,7 @@
   <meta name="description" content="Proyecto Universitario">
   <title>Venta de Libros</title>
 
-  <!-- CSS LOCAL (opcional, puedes incluir después del navbar) -->
+  <!-- CSS local -->
  <link rel="stylesheet" href="./CSS/main.css"-->
 
   <!-- BOOTSTRAP CSS -->
@@ -16,16 +16,18 @@
 </head>
 <body>
 
-<!-- 🔹 NAVBAR -->
+<!--  NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
   <div class="container">
     <!-- Logo y título -->
     <a class="navbar-brand d-flex align-items-center" href="#">
       <img src="img/icono.jpg" alt="Logo" width="80" height="80" class="me-2 rounded-circle">
-      <span class="fw-bold fs-5">Bienvenido a la tienda de libros</span>
+     
+      <span class="fw-bold fs-5" style="color: #000000ff;">Bienvenido a la tienda de libros</span>
     </a>
+   
 
-    <!-- Botón hamburguesa -->
+    <!-- botón hamburguesa -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" 
             aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
       
@@ -46,8 +48,8 @@
   </div>
 </nav>
 
-<!-- 🔹 Contenedor principal -->
+<!--   el contenedor principal -->
 <div class="container mt-4">
 
-<!-- BOOTSTRAP JS -->
+<!-- bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

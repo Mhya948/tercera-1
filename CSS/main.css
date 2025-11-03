@@ -1,4 +1,4 @@
-/* ===================== RESET ===================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,16 +10,16 @@ body {
     background: linear-gradient(135deg, #d9f0c1, #b2dfdb);
 }
 
-/* ===================== HEADINGS ===================== */
+/*  headings */
 h2 {
     color: #2b5a2b;
     font-weight: 700;
     margin-bottom: 40px;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 2px rgba(79, 207, 29, 0.1);
 }
 
-/* ===================== NAVBAR ===================== */
+/* NAVBAR  */
 .navbar {
     padding: 0.8rem 1rem;
     transition: all 0.3s ease;
@@ -44,8 +44,8 @@ h2 {
     text-underline-offset: 4px;
 }
 
-/* ===================== NAVBAR RESPONSIVO ===================== */
-/* Desktop: menú horizontal */
+/*  NAVBAR  responsive */
+
 @media (min-width: 768px) {
     .navbar-nav {
         flex-direction: row;
@@ -58,7 +58,7 @@ h2 {
     }
 }
 
-/* Móvil: menú vertical y burger */
+/*  menú vertical y burger */
 @media (max-width: 767.98px) {
     .navbar-nav {
         flex-direction: column;
@@ -78,7 +78,7 @@ h2 {
     }
 }
 
-/* ===================== CARDS Y CARRUSEL ===================== */
+/*  Cards Y Carousel  */
 .card, .card-carousel {
     border: none;
     border-radius: 15px;
@@ -105,11 +105,11 @@ h2 {
     margin: 60px auto;
     padding: 20px 10px;
     border-radius: 20px;
-    background-color: hsl(114, 31%, 82%);
+    background-color: hsl(0, 0%, 100%);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Carrusel horizontal */
+/* Carousel horizontal */
 .carousel-inner {
     display: flex;
     flex-direction: row;
@@ -130,7 +130,7 @@ h2 {
     display: none;
 }
 
-/* Flechas del carrusel */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgba(0, 0, 0, 0.5);
@@ -151,17 +151,17 @@ h2 {
 }
 /* Enlaces del navbar */
 .navbar .nav-link {
-    color: #000000 !important; /* blanco para que contraste con tu fondo */
+    color: #000000 !important; 
     font-weight: 500;
 }
 
 .navbar .nav-link:hover {
-    color: #000000 !important; /* amarillo suave al pasar el mouse */
+    color: #000000 !important; 
 }
 
 /* Link activo */
 .navbar .nav-link.active {
-    color: #000000 !important; /* dorado */
+    color: #000000 !important; 
 }
 
 .navbar-toggler {
@@ -175,43 +175,43 @@ h2 {
     width: 25px;
     height: 2px;
     margin: 5px 0;
-    background-color: black; /* color del burger */
+    background-color: black; /* burger */
     border-radius: 1px;
 }
-/* Mostrar burger icon siempre */
+
 .navbar-toggler {
-    display: block !important; /* fuerza que siempre se vea */
+    display: block !important; 
 }
 
-/* Ajusta el tamaño del icono */
+/* tamaño del icono */
 .toggler-icon {
     display: block;
     width: 25px;
     height: 2px;
     margin: 5px 0;
-    background-color: black; /* color del burger */
+    background-color: black; 
     border-radius: 1px;
 }
 ol {
-    list-style: none; /* quita numeración */
-    padding-left: 0;  /* opcional: quita sangría */
+    list-style: none; 
+    padding-left: 0;  
 }
 /* Cards generales */
 .card {
-  border: none;                 /* Sin borde clásico */
-  border-radius: 15px;          /* Bordes redondeados */
-  overflow: hidden;             /* Para que nada sobresalga */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border: none;                 
+  border-radius: 15px;          
+  overflow: hidden;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/*  eleva y aumenta sombra */
+/*  elevar y aumenta sombra */
 .card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Imagen de la card */
+/* imagenes de la card */
 .card-img-top {
   width: 100%;
   height: 180px; 
@@ -219,7 +219,7 @@ ol {
   transition: transform 0.3s ease;
 }
 
-/* Zoom  al pasar sobre la imagen */
+/* Zoom  sobre la imagen */
 .card-img-top:hover {
   transform: scale(1.05);
 }
@@ -231,25 +231,25 @@ ol {
   background-color: #fff;
 }
 
-/* Título */
+/* título */
 .card-title {
   font-weight: 700;
-  color: #2b5a2b;  /* verde oscuro */
+  color: #2b5a2b;  
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
 
-/* Texto */
+/* texto */
 .card-text {
   color: #555;
   font-size: 0.95rem;
   margin-bottom: 15px;
 }
 
-/* Botón */
+/* botón */
 .card .btn {
-  background-color: #2b5a2b;  /* verde oscuro */
-  color: #fff;
+  background-color: #2b5a2b; 
+  color: #ffffff;
   border-radius: 8px;
   padding: 8px 18px;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -260,7 +260,7 @@ ol {
   transform: scale(1.05);
 }
 
-/* Opcional: título sobre la imagen (overlay) */
+/*  título sobre la imagen */
 .card-overlay {
   position: absolute;
   bottom: 0;
@@ -289,34 +289,74 @@ ol {
 }
 
 .carousel-item img {
-  width: 200px;      /* ancho fijo para todas */
-  height: 300px;     /* altura fija para todas */
-  object-fit: cover; /* recorta proporcionalmente si es necesario */
+  width: 200px;      
+  height: 300px;     
+  object-fit: cover; 
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 .carousel-container,
 .carrusel {
-  height: 320px;   /* suficiente para que todas las imágenes encajen */
-  overflow: hidden; /* evita que sobresalgan */
+  height: 320px;   
+  overflow: hidden; 
 }
 .carousel-track {
   display: flex;
-  align-items: center;       /* centra verticalmente */
-  gap: 20px;                 /* espacio uniforme entre imágenes */
-  animation: scrollBooks 15s linear infinite; /* tu animación original */
+  align-items: center;       
+  gap: 20px;                 
+  animation: scrollBooks 15s linear infinite; 
 }
 
 .carousel-track img {
-  width: auto;               /* mantiene proporción natural */
-  height: 250px;             /* todas la misma altura */
-  object-fit: cover;         /* recorta lo mínimo */
+  width: auto;               
+  height: 250px;             
+  object-fit: cover;         
   border-radius: 12px;
-  flex-shrink: 0;            /* evita que se reduzcan en flex */
+  flex-shrink: 0;           
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .carousel-track img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #1b5e20;
+  background-color: #a5d6a7 !important;
+}
+/* abrir/cerrar preguntas */
+.accordion-collapse {
+  transition: all 0.4s ease-in-out;
+}
+
+/*  color del fondo  */
+.accordion-item {
+  transition: background-color 0.3s ease;
+}
+
+.accordion-item:hover {
+  background-color: #dcedc8 !important;
+}
+
+
+.accordion-body {
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: all 0.1s ease-in-out;
+}
+
+.accordion-collapse.show .accordion-body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: #1b5e20;
+  background-color: #a5d6a7 !important;
+  box-shadow: none;
 }
