@@ -8,10 +8,10 @@
   <!-- CSS local -->
  <link rel="stylesheet" href="./CSS/main.css"-->
 
-  <!-- BOOTSTRAP CSS -->
+  <!-- bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- FAVICON -->
+  <!-- icono -->
   <link rel="icon" type="image/png" href="img/icono.jpg">
 </head>
 <body>
